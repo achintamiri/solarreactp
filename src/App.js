@@ -130,7 +130,7 @@ return (
 <div>
     <div style={{paddingLeft: '23vw',zIndex:"1",position:"relative"}}><h1>Energy Balance Data</h1></div>
 
-
+<div style={{paddingLeft:'65vw',zIndex:"1",position:"relative"}}><h2>Annual Energy Balance</h2></div>
          <div  style={{display: "flex", left:60,top:10,width: "50vw", height: "30vw", background: "white" ,position: "relative",}} >
 
 <div style={{paddingTop: '15vw',paddingLeft: '0vw',zIndex:"1",position:"relative"}}><h6>KW/HR</h6></div>
@@ -146,11 +146,9 @@ return (
 
         </div>
          <div style={{paddingLeft:'21vw',paddingTop:'0vw',zIndex:"1",position:"relative"}}><h2>Monthly Energy Balance Data</h2></div>
-        <div  style={{display: "flex", left:80,top:150,width: "55vw", height: "30vw", background: "yellow" ,position: "relative",}} >
+        <div  style={{display: "flex", left:80,top:150,width: "60vw", height: "35vw", background: "white" ,position: "relative",}} >
             <div style={{paddingTop: '15vw',paddingLeft: '0vw',zIndex:"1",position:"relative"}}><h6>KW/HR</h6></div>
             <FlexibleXYPlot margin={{left:100,bottom:100,top:50}}  yDomain={[0,4500]} xType="ordinal">
-                 <div style={{paddingLeft: '23vw',zIndex:"1",position:"relative"}}>Chart 1 Title</div>
-                <div style={{paddingLeft: '23vw',paddingTop: '5vw',zIndex:"1",position:"relative"}}>Chart 1 Title</div>
                         <XAxis title='Time' tickLabelAngle={-45}/>
                         <YAxis  style={axisStyle} />
                         <VerticalBarSeries data={month1}/>
@@ -160,11 +158,14 @@ return (
                         <LabelSeries data={labelData} getLabel={d => d.y}/>
             </FlexibleXYPlot>
         </div>
+<div style={{paddingLeft:'28vw',paddingTop:'8vw',zIndex:"1",position:"relative"}}><h2>Daily Energy Balance</h2></div>
 
-  <div  style={{display: "flex", left:900,bottom:870,width: "30vw", height: "30vw", background: "white" ,position: "relative",}} >
+  <div  style={{display: "flex", left:900,bottom:1270,width: "30vw", height: "30vw", background: "white" ,position: "relative",}} >
+
                  <FRadialChart   data={myData}/>
 
         </div>
+
 
 
 
