@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -16,7 +17,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.rv-xy-plot__grid-lines__line {
+    stroke: gray;
+    stroke-width: 100;
+  }
 .App-link {
   color: #09d3ac;
 }
