@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f237ff-d63f-4162-a5d3-4c1a9ea21e33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solarfirstreact/src/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarfirstreact/src/newStyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarfirstreact/src/responsive-vis-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarfirstreact/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarfirstreact/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarfirstreact/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarfirstreact/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarfirstreact/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/solarfirstreact/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarfirstreact/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/solarfirstreact/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarfirstreact/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solarfirstreact/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -98,8 +93,16 @@
       <updated>1572975164319</updated>
       <workItem from="1572975171797" duration="18462000" />
       <workItem from="1573169031604" duration="5471000" />
-      <workItem from="1573174679188" duration="122561000" />
+      <workItem from="1573174679188" duration="123302000" />
     </task>
+    <task id="LOCAL-00001" summary="react-update-code">
+      <created>1573724149769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573724149769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="react-update-code" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-update-code" />
   </component>
 </project>
