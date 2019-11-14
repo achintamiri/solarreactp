@@ -121,7 +121,7 @@ const month2 =  [{x:xx1,y:yy1},{x:xx2,y:yy2},{x:xx3,y:yy3},{x:xx4,y:yy4},{x:xx5,
 
 return (
     <div>
-        <div style={{paddingLeft: '70vw'}}>eeeeii</div>
+        <div style={{paddingLeft: '70vw'}}>Achin</div>
         <div style={{paddingLeft: '10vw',overflow:'hidden',zIndex:"0"}}>eeee</div>
         <div  style={{display: "flex", width: "150%", height: "40%" ,position: "fixed",}} >
                  <FRadialChart   data={myData}/>
