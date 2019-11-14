@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6f237ff-d63f-4162-a5d3-4c1a9ea21e33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a6f237ff-d63f-4162-a5d3-4c1a9ea21e33" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <updated>1572975164319</updated>
       <workItem from="1572975171797" duration="18462000" />
       <workItem from="1573169031604" duration="5471000" />
-      <workItem from="1573174679188" duration="123302000" />
+      <workItem from="1573174679188" duration="123688000" />
     </task>
     <task id="LOCAL-00001" summary="react-update-code">
       <created>1573724149769</created>
@@ -102,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573724149769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="react-update-code">
+      <created>1573724949759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573724949759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
