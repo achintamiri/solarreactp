@@ -72,9 +72,11 @@ var totalnode1 =0
           if(t2[i]>=0){
     totalnode2 += t2[i]}
 }
-      const calx = (totalnode1/(totalnode1+totalnode2))*100
-      const caly= (totalnode2/(totalnode1+totalnode2))*100
-const myData = [{ angle:caly}, {angle: calx}]
+      const calxx = (totalnode1/(totalnode1+totalnode2))*100
+      const calyy= (totalnode2/(totalnode1+totalnode2))*100
+      const calx=calxx.toFixed(1)
+const caly=calyy.toFixed(1)
+const myData = [{  label:caly,color: 'orange',angle:caly}, { label:calx,color:'blue',angle: calx}]
 
 
 
@@ -128,29 +130,43 @@ const yy19 = [sh2[72]];const yy20 = [sh2[76]];const yy21= [sh2[80]];const yy22 =
 return (
 
 <div>
-    <div style={{paddingLeft: '23vw',zIndex:"1",position:"relative"}}><h1>Energy Balance Data</h1></div>
 
-<div style={{paddingLeft:'65vw',zIndex:"1",position:"relative"}}><h2>Annual Energy Balance</h2></div>
-         <div  style={{display: "flex", left:60,top:10,width: "50vw", height: "30vw", background: "white" ,position: "relative",}} >
+    <div>
+    <div style={{paddingLeft: '40vw',zIndex:"1",position:"relative"}}><h1>Energy Balance Data</h1></div>
+
+</div>
+
+
+         <div  style={{display: "flex", left:60,top:10,width: "48vw", height: "30vw", background: "white" ,position: "relative",}} >
 
 <div style={{paddingTop: '15vw',paddingLeft: '0vw',zIndex:"1",position:"relative"}}><h6>KW/HR</h6></div>
 
-            <FlexibleXYPlot margin={{left:80,bottom:100,top:90}} xType="ordinal">
-                         <XAxis  style={axisStyle} tickLabelAngle={-45}/>
-                        <YAxis style={axisStyle}/>
-                        <VerticalBarSeries data={dat}/>
-                        <VerticalBarSeries data={datnode2}/>
-                      <DiscreteColorLegend items={['PV Solar',]} orientation="vertical"/>
+            <FlexibleXYPlot margin={{left:80,bottom:100,top:90}} xType="ordinal" stackBy="y">
+
+                         <XAxis  tickLabelAngle={-30} style={{ticks: {fontSize: '13px', text: {stroke: 'none', fill: '#6b6b76', fontWeight: 700}}}} />
+
+                         <YAxis style={axisStyle} style={{ticks: {fontSize: '13px', color: '#000000', text: {stroke: 'none', fill: '#6b6b76', fontWeight: 700},}}}/>
+                        <HorizontalGridLines />
+                        <DiscreteColorLegend colors={['#19CDD7','#F15C17']}items={['Node','Node2']} height={900} width={500} orientation="horizontal"/>
+                        <VerticalBarSeries data={dat}color={"blue"}/>
+                        <VerticalBarSeries data={datnode2} color={"orange"}/>
+
+
+
+
+
             </FlexibleXYPlot>
 
 
         </div>
+
          <div style={{paddingLeft:'21vw',paddingTop:'0vw',zIndex:"1",position:"relative"}}><h2>Monthly Energy Balance Data</h2></div>
-        <div  style={{display: "flex", left:80,top:150,width: "60vw", height: "35vw", background: "white" ,position: "relative",}} >
+        <div  style={{display: "flex", left:80,top:60,width: "60vw", height: "35vw", background: "white" ,position: "relative",}} >
             <div style={{paddingTop: '15vw',paddingLeft: '0vw',zIndex:"1",position:"relative"}}><h6>KW/HR</h6></div>
-            <FlexibleXYPlot margin={{left:100,bottom:100,top:50}}  yDomain={[0,4500]} xType="ordinal">
+            <FlexibleXYPlot margin={{left:100,bottom:100,top:50}}  yDomain={[0,4500]} xType="ordinal" >
                         <XAxis title='Time' tickLabelAngle={-45}/>
                         <YAxis  style={axisStyle} />
+                        <DiscreteColorLegend colors={['#19CDD7','#F15C17']}items={['Node','Node2']} orientation="horizontal"/>
                         <VerticalBarSeries data={month1}/>
                         <VerticalBarSeries data={month2}/>
                          <LineSeries data={month1}/>
@@ -158,13 +174,18 @@ return (
                         <LabelSeries data={labelData} getLabel={d => d.y}/>
             </FlexibleXYPlot>
         </div>
-<div style={{paddingLeft:'28vw',paddingTop:'8vw',zIndex:"1",position:"relative"}}><h2>Daily Energy Balance</h2></div>
-
+    <div style={{paddingLeft:'28vw',paddingTop:'2vw',zIndex:"1",position:"relative"}}><h5>Hourly Consumption</h5></div>
+<div style={{paddingLeft:'24vw',paddingTop:'2vw',zIndex:"1",position:"relative"}}><h2>Daily Energy Balance</h2></div>
   <div  style={{display: "flex", left:900,bottom:1270,width: "30vw", height: "30vw", background: "white" ,position: "relative",}} >
+<div>
 
-                 <FRadialChart   data={myData}/>
 
-        </div>
+                 <FRadialChart   data={myData} colorType="literal"showLabels={true}  labelsRadiusMultiplier={0.8}labelsStyle={{ fontSize: 22, fill: 'white' }}/>
+
+<div style={{paddingLeft:'12vw',paddingTop:'2vw',paddingBottom:'10vw',zIndex:"1",position:"relative"}}><DiscreteColorLegend colors={['#19CDD7','#F15C17']}items={['Node','Node2']} orientation="horizontal"/>
+
+                 <div style={{paddingLeft:'0vw',paddingTop:'0vw',zIndex:"1",position:"relative"}}><h2>Annual Energy Balance</h2></div>
+    </div></div>    </div>
 
 
 
