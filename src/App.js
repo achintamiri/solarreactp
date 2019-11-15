@@ -61,11 +61,10 @@ class App extends Component {state = {todos: [], todos1:[],todos2:[],todos3:[]}
 
 return (
         <div>
-
-
-
-
             <div><div style={{paddingLeft: '40vw',zIndex:"1",position:"relative"}}><h1>Energy Balance Data</h1></div></div>
+
+            {/*ji*/}
+
             <div  style={{display: "flex", left:60,top:10,width: "48vw", height: "30vw", background: "white" ,position: "relative",}} >
                   <div style={{paddingTop: '15vw',paddingLeft: '0vw',zIndex:"1",position:"relative"}}><h6>KW/HR</h6></div>
                   <FlexibleXYPlot margin={{left:80,bottom:100,top:90}} xType="ordinal" stackBy="y">
@@ -77,7 +76,6 @@ return (
                   </FlexibleXYPlot>
             </div>
             <div style={{paddingLeft:'21vw',paddingTop:'0vw',zIndex:"1",position:"relative"}}><h2>Monthly Energy Balance Data</h2></div>
-
 
 
 
