@@ -68,7 +68,7 @@ return (
         <div>
             <div><div style={{paddingLeft: '30vw',zIndex:"1",position:"relative"}}><h1>Energy Balance Data for Year {currentyear}</h1></div></div>
 
-            {/*ji*/}
+
 
             <div  style={{display: "flex", left:60,top:10,width: "50vw", height: "30vw", background: "white" ,position: "relative",}} >
                   <div style={{paddingTop: '15vw',paddingLeft: '0vw',zIndex:"1",position:"relative"}}><h6>Kw/Hr</h6></div>
