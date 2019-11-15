@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f237ff-d63f-4162-a5d3-4c1a9ea21e33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/precache-manifest.19aa7999965620b186bcf73225fed0b7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/css/2.5a2f7233.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/css/2.5a2f7233.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/css/main.10895230.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/css/main.10895230.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/js/2.cec4eabc.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/js/2.cec4eabc.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/js/main.39bbc9f1.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/js/main.39bbc9f1.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/js/runtime-main.4f088176.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarfirstreact/build/static/js/runtime-main.4f088176.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarfirstreact" beforeDir="false" afterPath="$PROJECT_DIR$/solarfirstreact" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +87,12 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3010">
       <method v="2" />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <command value="build" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/solarfirstreact/package.json" />
       <command value="run" />
@@ -95,7 +121,7 @@
       <workItem from="1572975171797" duration="18462000" />
       <workItem from="1573169031604" duration="5471000" />
       <workItem from="1573174679188" duration="124544000" />
-      <workItem from="1573830861654" duration="7062000" />
+      <workItem from="1573830861654" duration="7949000" />
     </task>
     <task id="LOCAL-00001" summary="react-update-code">
       <created>1573724149769</created>
@@ -181,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573835233545</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="COde Refactoring App.js and data">
+      <created>1573841688178</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573841688178</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +239,7 @@
     <MESSAGE value="11:23" />
     <MESSAGE value="11:24" />
     <MESSAGE value="COde Refactoring App.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="COde Refactoring App.js" />
+    <MESSAGE value="COde Refactoring App.js and data" />
+    <option name="LAST_COMMIT_MESSAGE" value="COde Refactoring App.js and data" />
   </component>
 </project>
